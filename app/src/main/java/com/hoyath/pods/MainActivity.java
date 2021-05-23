@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, d.getName() + "--" + d.ACTION_ACL_CONNECTED, Toast.LENGTH_SHORT).show();
 
         }
-//alert
+//alertasdf
 */
         IntentFilter filter1 = new IntentFilter(BluetoothAdapter.ACTION_STATE_CHANGED);
         registerReceiver(BTReceiver, filter1);
